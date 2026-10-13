@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Events - Ouarzazate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <h1>Upcoming Events</h1>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="what-to-do.html">What to Do</a>
+        <a href="cinema.html">Cinema</a>
+        <a href="events.html">Events</a>
+        <a href="map.html">Interactive Map</a>
+        <a href="where-to-stay.html">Where to Stay</a>
+        <a href="s-a.html">Smart Assistant</a>
+        <a href="help.html">Help &amp; Contact</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Upcoming Events in Ouarzazate</h2>
+    <h5>Discover festivals and cultural celebrations, sports events and film festivals and cinema events</h5>
+
+    <section>
+        <img src="ahwach-1.jpg" alt="Ahwach performance in Ouarzazate, with drummers in front of a kasbah">
+        <h3>Festival National des Arts d'Ahwach</h3>
+        <h5>22 – 24 octobre 2026 · Ouarzazate</h5>
+
+        <details class="ev-about">
+            <summary>About the Event</summary>
+            <div class="ev-panel" lang="fr">
+                <p class="ev-date">Date : 22 – 24 octobre 2026</p>
+                <p>La 14e édition du Festival National des Arts d'Ahwach, placée sous le haut patronage de Sa Majesté le Roi Mohammed VI, se tient à Ouarzazate. Sous le thème « Ahwach, World Rhythms », le festival met à l'honneur le patrimoine musical et chorégraphique amazigh à travers des spectacles, des ateliers, un forum et une masterclass.</p>
+                <p>Le programme débute dès le mercredi 21 octobre par une rencontre médiatique et une animation. Il comprend des animations à la zone touristique de 16h00 à 18h30, des spectacles chaque soir du jeudi au samedi à 19h00 sur la plateforme de la kasbah de Taourirt, des ateliers d'initiation et de fabrication d'instruments, un forum culturel au Palais des Congrès le samedi 24 octobre, ainsi qu'un hommage aux trésors humains vivants de l'art Ahwach.</p>
+                <div class="ev-flyers">
+                    <figure>
+                        <img src="ahwach-programme-1.png" alt="Affiche du programme du vendredi 23 et du samedi 24 octobre 2026">
+                        <figcaption>Programme : vendredi 23 et samedi 24 octobre 2026</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="ahwach-programme-2.png" alt="Affiche du programme du mercredi 21 et du jeudi 22 octobre 2026">
+                        <figcaption>Programme : mercredi 21 et jeudi 22 octobre 2026</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </details>
+
+        <details class="ev-buy">
+            <summary>Buy Your Ticket</summary>
+            <form class="ticket-form" action="mailto:billetterie@example.com" method="post" enctype="text/plain">
+                <p class="ev-price">Tarif par personne : <strong>à confirmer</strong></p>
+                <label>Nom complet
+                    <input type="text" name="nom" required>
+                </label>
+                <label>Adresse e-mail
+                    <input type="email" name="email" required>
+                </label>
+                <label>Téléphone
+                    <input type="tel" name="telephone">
+                </label>
+                <label>Nombre de personnes
+                    <select name="nombre_de_personnes" required>
+                        <option value="1">1 personne</option>
+                        <option value="2">2 personnes</option>
+                        <option value="3">3 personnes</option>
+                        <option value="4">4 personnes</option>
+                        <option value="5">5 personnes</option>
+                        <option value="6">6 personnes</option>
+                        <option value="7">7 personnes</option>
+                        <option value="8">8 personnes</option>
+                        <option value="9">9 personnes</option>
+                        <option value="10">10 personnes</option>
+                    </select>
+                </label>
+                <button type="submit">Envoyer ma demande</button>
+            </form>
+        </details>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Ouarzazate Tourism</p>
+</footer>
+</body>
+</html>
