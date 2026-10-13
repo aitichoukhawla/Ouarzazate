@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Assistant - Ouarzazate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>Smart Assistant</h1>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="what-to-do.html">What to Do</a>
+        <a href="cinema.html">Cinema</a>
+        <a href="events.html">Events</a>
+        <a href="map.html">Interactive Map</a>
+        <a href="where-to-stay.html">Where to Stay</a>
+        <a href="s-a.html" aria-current="page">Smart Assistant</a>
+        <a href="help.html">Help &amp; Contact</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+    <h2>Ouarzazate Smart Assistant</h2>
+
+    <section>
+
+        <h3>Tell me about</h3>
+
+        <form class="ask-row" action="https://www.google.com/search" method="get" target="_blank">
+
+            <label for="question" class="assistant-avatar" title="Click here to write your question">
+                <svg viewBox="0 0 120 120" aria-hidden="true" focusable="false">
+                    <line x1="60" y1="14" x2="60" y2="30" stroke="#8d5f4c" stroke-width="4" stroke-linecap="round"/>
+                    <circle cx="60" cy="12" r="6" fill="#e8c9a2"/>
+                    <rect x="22" y="30" width="76" height="66" rx="18" fill="#fcf8f1" stroke="#8d5f4c" stroke-width="4"/>
+                    <circle cx="45" cy="58" r="8" fill="#6f5a4c"/>
+                    <circle cx="75" cy="58" r="8" fill="#6f5a4c"/>
+                    <path d="M46 78 Q60 88 74 78" fill="none" stroke="#b98266" stroke-width="4" stroke-linecap="round"/>
+                    <rect x="34" y="100" width="52" height="12" rx="6" fill="#8d5f4c"/>
+                </svg>
+                <span>Tap me to ask</span>
+            </label>
+
+            <input
+                type="text"
+                id="question"
+                name="q"
+                value="Ouarzazate "
+            >
+
+            <button type="submit">Ask</button>
+
+        </form>
+
+    </section>
+    <section>
+
+        <h3>For My Trip</h3>
+
+        <form>
+
+            <label>Number of days:</label>
+            <input type="number">
+
+            <br><br>
+
+            <label>Type of trip:</label>
+
+            <select>
+                <option>Culture</option>
+                <option>Nature</option>
+                <option>Cinema</option>
+                <option>Adventure</option>
+                <option>Relaxation</option>
+            </select>
+
+            <br><br>
+
+            <button type="submit">
+                Plan My Trip
+            </button>
+
+        </form>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <p>&copy; 2026 Ouarzazate Tourism</p>
+</footer>
+
+</body>
+</html>
